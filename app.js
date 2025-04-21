@@ -12,7 +12,7 @@ dotenv.config();
 const app = express();
 
 const corsOptions = {
-	origin: "http://localhost:3000",
+	origin: ["https://your-tech-stories-frontend.vercel.app", "http://localhost:3000",],
 	methods: ["GET", "POST", "DELETE", "PUT", "PATCH", "HEAD"],
 	credentials: true,
 	allowedHeaders: ["Content-Type", "Authorization"]
