@@ -26,7 +26,7 @@ app.use("/api/auth", authRouter);
 app.use("/api/blog", blogRouter);
 
 app.get("/", (req, res) => {
-	res.send("Blog App Server is up and running!");
+	res.send("Your Tech Stories App Server is up and running!");
 });
 
 const PORT = process.env.PORT || 8005;
